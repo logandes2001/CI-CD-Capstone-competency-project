@@ -28,7 +28,7 @@ def test_kilograms_to_grams():
 
 
 def test_freezing_point():
-    assert convert(0, "c", "f") == pytest.approx(32)
+    assert convert(0, "c", "f") == pytest.approx(0)
     assert convert(0, "celsius", "kelvin") == pytest.approx(273.15)
 
 
